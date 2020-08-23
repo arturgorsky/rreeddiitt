@@ -6,6 +6,7 @@ Tools and technologies used:
 * NPM
 * GIT
 * Typescript
+* Yarn
 
 
 ## How to run
