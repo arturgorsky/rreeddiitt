@@ -13,4 +13,4 @@ Tools and technologies used:
 1) Use npm init
 2) I used yarn watch to compile .ts files into .js files. It creates dist folder with compiled javascript
 3) Open second terminal and use Yarn dev that runs node under dist/index.js using nodemon
-# INFO: There are two programs running in ternimal yarn -watch compiles TS and yarn dev runs constantly watching for changes
+### INFO: There are two programs running in ternimal yarn -watch compiles TS and yarn dev runs constantly watching for changes
