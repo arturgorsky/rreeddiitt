@@ -1,0 +1,29 @@
+{
+  "name": "rreeddiitt",
+  "version": "1.0.0",
+  "description": "Redit like clone build with React, GraphQL and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "dev": "nodemon dist/index.js",
+    "start": "node dist/index.js",
+    "start2": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arturgorsky/rreeddiitt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arturgorsky/rreeddiitt/issues"
+  },
+  "homepage": "https://github.com/arturgorsky/rreeddiitt#readme",
+  "devDependencies": {
+    "@types/node": "^14.6.0",
+    "nodemon": "^2.0.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  }
+}
