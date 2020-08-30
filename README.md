@@ -12,9 +12,10 @@ Tools and technologies used:
 * NODE
 * NPM
 * YARN (propably)
-* Postgres Database
+* PostgreSQL Database Setup
 ## How to run
 1) Use npm install to install dependencies
-2) I used `yarn watch` to compile .ts files into .js files. It creates dist folder with compiled javascript
-3) Open second terminal and use `yarn dev` that runs node under dist/index.js using nodemon
+2) Make sure that confing under `src/mikro-orm.confing.ts` has correct values for your db setup (dbname, host, user, password etc.)
+3) I used `yarn watch` to compile .ts files into .js files. It creates dist folder with compiled javascript
+4) Open second terminal and use `yarn dev` that runs node under dist/index.js using nodemon
 ### INFO: There are two programs running in ternimal yarn -watch compiles TS and yarn dev runs constantly watching for changes
